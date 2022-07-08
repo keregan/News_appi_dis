@@ -5,6 +5,7 @@ import re
 import discord
 import requests
 from discord.ext import commands
+import token.txt
 
 global v_c
 headers = {
@@ -366,5 +367,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-bot.run('OTg1MTYyNjk3ODMyMjY3ODA2.GVWDZK.2UgAcoRDseF4OqAfo5GkKdyhjaoZKPJoydFoso')
+bot.run("token.txt")
 
